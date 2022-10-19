@@ -18,6 +18,7 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
+  ChildIds: 15696636619505185408
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,85 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15696636619505185408
+  Name: "Secret Laboratory Interior"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4380677702916479677
+      value {
+        Overrides {
+          Name: "cs:AutoOpen"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5245574671669721009
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 110
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8325254835710242909
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7.62939453e-06
+            Y: 89.9999237
+            Z: 130.095703
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12499397924720456924
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Secret Laboratory Interior"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -350
+            Y: -100
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14543210640868014383
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 16.6308594
+            Y: 509.134766
+            Z: -42.0068359
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6005149688043402258
+    }
+  }
 }
 Objects {
   Id: 14982843161775482339
@@ -458,7 +538,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      X: 50
+      Y: -100
+      Z: 250
     }
     Rotation {
     }
