@@ -89,11 +89,6 @@ end
 
 -- nil OpenDoor(Player)
 -- Opens the door
-function ShowPasswordModal(player)
-	SetTargetOffset(1.0)
-	Events.Broadcast("DoorOpened", COMPONENT_ROOT)
-end
-
 function OpenDoor(player)
 	SetTargetOffset(1.0)
 	Events.Broadcast("DoorOpened", COMPONENT_ROOT)
