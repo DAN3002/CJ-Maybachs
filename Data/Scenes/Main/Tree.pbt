@@ -118,6 +118,7 @@ Objects {
   ChildIds: 14201511502762083080
   ChildIds: 15465538852345635076
   ChildIds: 370091263946294434
+  ChildIds: 18104188029541871708
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -135,6 +136,32 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18104188029541871708
+  Name: "First Person Camera Settings"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18143788354451018607
+      value {
+        Overrides {
+          Name: "Name"
+          String: "First Person Camera Settings"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7947195585999457744
+    }
+  }
 }
 Objects {
   Id: 370091263946294434
