@@ -689,9 +689,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 3172.34082
-      Y: 221.472656
-      Z: 1.15698242
+      X: 2902.80176
+      Y: 270.609375
+      Z: -6.93798828
     }
     Rotation {
       Yaw: 90

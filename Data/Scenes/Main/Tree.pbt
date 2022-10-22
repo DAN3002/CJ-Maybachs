@@ -117,6 +117,7 @@ Objects {
   ChildIds: 2054326025393105006
   ChildIds: 14201511502762083080
   ChildIds: 15465538852345635076
+  ChildIds: 370091263946294434
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -134,6 +135,55 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 370091263946294434
+  Name: "Scene Portal"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13007007807573962102
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Scene Portal"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4883.90918
+            Y: 2518.57056
+            Z: 1963.45276
+          }
+        }
+        Overrides {
+          Name: "cs:DestinationScene"
+          String: "Escape Room"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13862677089630199096
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 4.3137207
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17233595826100739479
+    }
+  }
 }
 Objects {
   Id: 15465538852345635076
