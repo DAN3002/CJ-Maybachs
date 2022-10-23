@@ -40,7 +40,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "Escape Room"
 PreviewDetailLevelPerScene {
   key: "Escape Room"
   value: 1

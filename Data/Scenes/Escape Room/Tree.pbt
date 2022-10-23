@@ -21,7 +21,6 @@ Objects {
   ChildIds: 18196929193959363339
   ChildIds: 5429257365340292215
   ChildIds: 14484974913414744629
-  ChildIds: 2419237924494826024
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,40 +38,6 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2419237924494826024
-  Name: "Scene Portal"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13007007807573962102
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Scene Portal"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -572.316223
-            Y: 478.173706
-            Z: 7.99316406
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17233595826100739479
-    }
-  }
 }
 Objects {
   Id: 14484974913414744629
