@@ -9,6 +9,7 @@ TRIGGER.interactionLabel = "View Screen"
 function OnInteracted(trigger, player)
 	TRIGGER.interactionLabel = "werwer"
 	PASSWORD_MODAL.visibility = Visibility.FORCE_ON
+	Events.BroadcastToAllPlayers("Start_UI")
 end
 
 TRIGGER.interactedEvent:Connect(OnInteracted)
