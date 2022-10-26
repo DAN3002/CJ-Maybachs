@@ -14,6 +14,7 @@ end
 function OnHide(isUnlock)
 	TRIGGER.interactionLabel = "View Screen"
 	PASSWORD_MODAL.visibility = Visibility.FORCE_OFF
+	Events.BroadcastToAllPlayers("End_UI")
 end
 
 Events.Connect("Hide_".. QUIZ_ID, OnHide)
