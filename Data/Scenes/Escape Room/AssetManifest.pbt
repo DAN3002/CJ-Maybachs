@@ -215,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14092400558764356897
+  Name: "Dragon"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Dragon"
+  }
+}
+Assets {
   Id: 13963398578998379923
   Name: "Office Notebook"
   PlatformAssetType: 1
