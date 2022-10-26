@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14434914199392929303
-  Name: "Gold Treasure 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_gold_treasure_002"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -41,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_grid_9slice_001_ref"
-  }
-}
-Assets {
-  Id: 7020565161585131738
-  Name: "Camouflage - Splinter"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "camo_splinter_001"
   }
 }
 Assets {
@@ -89,29 +71,11 @@ Assets {
   }
 }
 Assets {
-  Id: 3911298908335124553
-  Name: "Energy Tube Glow"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "Energy_Tube_Glow"
-  }
-}
-Assets {
   Id: 994255190333777002
   Name: "Office Carpet Hex 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_office_carpet_001_uv_ref"
-  }
-}
-Assets {
-  Id: 294868226530558544
-  Name: "Glitchy Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_hologram"
   }
 }

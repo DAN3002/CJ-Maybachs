@@ -550,10 +550,6 @@ Objects {
         Id: 2268570701374547217
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -613,7 +609,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -691,10 +687,6 @@ Objects {
       AssetReference {
         Id: 2268570701374547217
       }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
     }
   }
   Collidable_v2 {

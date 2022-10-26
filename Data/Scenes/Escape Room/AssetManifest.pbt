@@ -800,15 +800,6 @@ Assets {
   }
 }
 Assets {
-  Id: 89373165099837160
-  Name: "Abstract Background 04"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Core_UI_AbstractPack_Background_005"
-  }
-}
-Assets {
   Id: 36268939630397418
   Name: "Office Cubicle Cabinet 01"
   PlatformAssetType: 1
