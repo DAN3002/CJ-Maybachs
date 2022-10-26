@@ -221,7 +221,7 @@ Objects {
     }
     Overrides {
       Name: "cs:PASSWORD"
-      String: ""
+      String: "1234"
     }
   }
   Collidable_v2 {
@@ -428,7 +428,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
