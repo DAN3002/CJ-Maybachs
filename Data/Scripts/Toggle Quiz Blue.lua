@@ -29,6 +29,12 @@ function OnHide(isUnlock)
 	end
 end
 
+function OnHideModal(isUnlock)
+	MODAL.visibility = Visibility.FORCE_OFF
+	Events.BroadcastToAllPlayers("End_UI")
+end
+
 Events.Connect("Hide_".. QUIZ_ID, OnHide)
+Events.Connect("HideModal_".. QUIZ_ID, OnHideModal)
 
 TRIGGER.interactedEvent:Connect(OnInteracted)

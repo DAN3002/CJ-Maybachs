@@ -5,6 +5,8 @@ local SUBMIT_BUTTON = script:GetCustomProperty("SubmitButton"):WaitForObject()
 local PASSWORD = script:GetCustomProperty("PASSWORD")
 local QUIZ_ID = script:GetCustomProperty("QuizID")
 local CLOSE_BUTTON = script:GetCustomProperty("CloseButton"):WaitForObject()
+local CLOSE_BUTTON_MODAL = script:GetCustomProperty("CloseButtonModal"):WaitForObject()
+
 
 
 local function OnClickSubmit()
@@ -22,6 +24,11 @@ function onClickClose()
 	Events.BroadcastToServer("Hide_".. QUIZ_ID, false)
 end
 
+function onClickCloseModal()
+	Events.BroadcastToServer("HideModal_".. QUIZ_ID, false)
+end
+
 
 SUBMIT_BUTTON.clickedEvent:Connect(OnClickSubmit)
 CLOSE_BUTTON.clickedEvent:Connect(onClickClose)
+CLOSE_BUTTON_MODAL.clickedEvent:Connect(onClickCloseModal)
