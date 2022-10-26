@@ -138,36 +138,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17825322902115539681
-  Name: "AllPlayersFly"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11819897773402071195
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AllPlayersFly"
-        }
-        Overrides {
-          Name: "cs:GroundDistance"
-          Float: 400
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4483019430266324830
-    }
-  }
-}
-Objects {
   Id: 18104188029541871708
   Name: "First Person Camera Settings"
   Transform {

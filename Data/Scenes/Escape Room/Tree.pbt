@@ -216,7 +216,7 @@ Objects {
     Overrides {
       Name: "cs:ErrorTextBox"
       ObjectReference {
-        SelfId: 8710606213659021441
+        SelfId: 841534158063459245
       }
     }
     Overrides {
@@ -414,7 +414,6 @@ Objects {
   ChildIds: 3923410676817421684
   ChildIds: 8406670204637607201
   ChildIds: 6397045954550501360
-  ChildIds: 8710606213659021441
   UnregisteredParameters {
     Overrides {
       Name: "cs:TEXT_BOX"
@@ -428,7 +427,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -438,7 +437,7 @@ Objects {
   }
   Control {
     Width: 1276
-    Height: 621
+    Height: 495
     UIX: 403.349304
     UIY: 228.002502
     RenderTransformPivot {
@@ -461,86 +460,6 @@ Objects {
       ShadowOffset {
       }
       ScreenshotIndex: 1
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8710606213659021441
-  Name: "ErrorTextBox"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17231854474307855370
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 395
-    Height: 70
-    UIX: 317.060303
-    UIY: 301.059082
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Wrong Password!!"
-      Color {
-        R: 0.919999957
-        G: 4.38690165e-07
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      Font {
-        Id: 841534158063459245
-      }
-      VerticalJustification {
-        Value: "mc:everticaljustification:top"
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-      ScaleToFit: true
-      OutlineColor {
-        A: 1
-      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -589,7 +508,7 @@ Objects {
     Width: 1055
     Height: 60
     UIX: 118.395874
-    UIY: 459.61676
+    UIY: 351.235474
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
