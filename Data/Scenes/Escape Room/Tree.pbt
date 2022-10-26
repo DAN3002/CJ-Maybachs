@@ -214,14 +214,12 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:ErrorTextBox"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
-    }
-    Overrides {
       Name: "cs:PASSWORD"
       String: "1234"
+    }
+    Overrides {
+      Name: "cs:QuizID"
+      String: "Quiz01"
     }
   }
   Collidable_v2 {
@@ -309,6 +307,10 @@ Objects {
       ObjectReference {
         SelfId: 3684298048208686542
       }
+    }
+    Overrides {
+      Name: "cs:QuizID"
+      String: "Quiz01"
     }
   }
   Collidable_v2 {
@@ -427,7 +429,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
