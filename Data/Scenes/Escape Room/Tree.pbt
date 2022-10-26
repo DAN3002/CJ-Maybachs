@@ -354,7 +354,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HintID"
-      String: ""
+      String: "HintCard"
     }
   }
   Collidable_v2 {
@@ -432,7 +432,7 @@ Objects {
 }
 Objects {
   Id: 9920932538228326501
-  Name: "Quiz 01 Blue"
+  Name: "Quiz 01"
   Transform {
     Location {
     }
@@ -678,7 +678,7 @@ Objects {
 }
 Objects {
   Id: 560680155353261951
-  Name: "Toggle Quiz Blue"
+  Name: "Toggle Quiz"
   Transform {
     Location {
     }
@@ -834,7 +834,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3409,7 +3409,6 @@ Objects {
   ChildIds: 4699955384946508570
   ChildIds: 11296659779151188420
   ChildIds: 1072763587550280880
-  ChildIds: 15022881259037575058
   ChildIds: 14381598177529055002
   ChildIds: 15139638137289336761
   ChildIds: 3297824437849844189
@@ -3814,72 +3813,6 @@ Objects {
   InstanceHistory {
     SelfId: 14381598177529055002
     SubobjectId: 10838758958304583885
-    InstanceId: 15696636619505185408
-    TemplateId: 6005149688043402258
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15022881259037575058
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -1112.5293
-      Y: 908.525391
-      Z: 605.20752
-    }
-    Rotation {
-      Yaw: -134.471039
-    }
-    Scale {
-      X: 5.64447403
-      Y: 0.999994755
-      Z: 2.34553814
-    }
-  }
-  ParentId: 12373228898454700756
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18073540498658436441
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14922648517014774562
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 15022881259037575058
-    SubobjectId: 9332949820041289797
     InstanceId: 15696636619505185408
     TemplateId: 6005149688043402258
   }
