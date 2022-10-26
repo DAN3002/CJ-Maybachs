@@ -1,25 +1,13 @@
--- Client Script
 
--- Reference to the text entry box
-local TEXT_BOX = script:GetCustomProperty("UITextEntryBox"):WaitForObject()
-
--- Enable cursor interaction and make visible
-UI.SetCanCursorInteractWithUI(true)
-UI.SetCursorVisible(true)
-
-local function OnTextChanged(obj, text)
-    print("Text Box Changed:", text)
-end
-
-local function OnTextCommitted(obj, text)
-    print("Text Box Committed:", text)
-end
-
--- Connect text entry events
-TEXT_BOX.textChangedEvent:Connect(OnTextChanged)
-TEXT_BOX.textCommittedEvent:Connect(OnTextCommitted)
+-- Custom 
+local TEXT_BOX_INPUT = script:GetCustomProperty("TextBoxInput"):WaitForObject()
+local SUBMIT_BUTTON = script:GetCustomProperty("SubmitButton"):WaitForObject()
+local HINT_TEXT_BOX = script:GetCustomProperty("HintTextBox"):WaitForObject()
+local ERROR_TEXT_BOX = script:GetCustomProperty("ErrorTextBox"):WaitForObject()
+local PASSWORD = script:GetCustomProperty("PASSWORD")
 
 
+-- Event
 function OnNumberReceived()
 	UI.SetCursorVisible(true)
 	UI.SetCanCursorInteractWithUI(true)
@@ -27,5 +15,16 @@ function OnNumberReceived()
 end
 
 
+function OnClickSubmit()
+	inputText = TEXT_BOX_INPUT.text
+	print(inputText)
+	if (inputText ~= PASSWORD)
+	then 
+		print("sdfsdf")
+	else
+		print("123123123")
+	end
+end
 
 Events.Connect("Start_UI", OnNumberReceived)
+SUBMIT_BUTTON.clickedEvent:Connect(OnClickSubmit)

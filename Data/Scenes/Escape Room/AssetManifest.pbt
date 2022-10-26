@@ -629,6 +629,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3866331512319588056
+  Name: "Abstract Background 04"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Core_UI_AbstractPack_Background_005"
+  }
+}
+Assets {
   Id: 3747705493860143674
   Name: "Pipe - 8-Sided Thick"
   PlatformAssetType: 1
