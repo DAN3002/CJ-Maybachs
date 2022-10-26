@@ -422,6 +422,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9035591144150604460
+  Name: "Icon Close"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Close"
+  }
+}
+Assets {
   Id: 8745794018914173716
   Name: "Urban Trash Can 02"
   PlatformAssetType: 1

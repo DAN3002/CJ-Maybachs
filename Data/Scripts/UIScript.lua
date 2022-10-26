@@ -1,9 +1,11 @@
+
 -- Custom 
 local TEXT_BOX_INPUT = script:GetCustomProperty("TextBoxInput"):WaitForObject()
 local SUBMIT_BUTTON = script:GetCustomProperty("SubmitButton"):WaitForObject()
-local HINT_TEXT_BOX = script:GetCustomProperty("HintTextBox"):WaitForObject()
 local PASSWORD = script:GetCustomProperty("PASSWORD")
 local QUIZ_ID = script:GetCustomProperty("QuizID")
+local CLOSE_BUTTON = script:GetCustomProperty("CloseButton"):WaitForObject()
+
 
 local function OnClickSubmit()
 	inputText = TEXT_BOX_INPUT.text
@@ -17,5 +19,10 @@ local function OnClickSubmit()
 	end
 end
 
+function onClickClose()
+	Events.BroadcastToServer("Hide_".. QUIZ_ID, false)
+end
+
 
 SUBMIT_BUTTON.clickedEvent:Connect(OnClickSubmit)
+CLOSE_BUTTON.clickedEvent:Connect(onClickClose)
