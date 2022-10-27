@@ -170,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15111702473980489239
+  Name: "Shield"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Shield"
+  }
+}
+Assets {
   Id: 14922648517014774562
   Name: "Cube"
   PlatformAssetType: 1
@@ -266,6 +275,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_cabinet_001_drawer_01_ref"
+  }
+}
+Assets {
+  Id: 13010954953715274577
+  Name: "Frame Outline Thin 011"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameOutline_028"
   }
 }
 Assets {
@@ -368,6 +386,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10450133374979928947
+  Name: "Bear"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Bear"
+  }
+}
+Assets {
   Id: 10336692197110796098
   Name: "Office Cubicle Desk Top 01 - 2m"
   PlatformAssetType: 1
@@ -458,6 +485,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8068234776843731478
+  Name: "Alien"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Icon_021"
+  }
+}
+Assets {
   Id: 7917643843895697114
   Name: "Sci-fi Console Screen 03"
   PlatformAssetType: 1
@@ -530,6 +566,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6971256516592955972
+  Name: "Icon Time"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Time"
+  }
+}
+Assets {
   Id: 6789604014209716330
   Name: "Sci-fi Ship Engine 01"
   PlatformAssetType: 1
@@ -554,6 +599,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_001_ref"
+  }
+}
+Assets {
+  Id: 5829398896371401268
+  Name: "Heal"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Heal"
   }
 }
 Assets {
@@ -692,6 +746,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3465974460412634483
+  Name: "Fire"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Fire"
+  }
+}
+Assets {
   Id: 3311125288769757340
   Name: "Electric Surface"
   PlatformAssetType: 2
@@ -737,6 +800,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2200721493997699290
+  Name: "Emblem Star 2"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_066"
+  }
+}
+Assets {
   Id: 2134397087581262769
   Name: "Basic Hologram"
   PlatformAssetType: 2
@@ -770,6 +842,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_girder_001_ref"
+  }
+}
+Assets {
+  Id: 727313797294313310
+  Name: "Bat"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Bat"
   }
 }
 Assets {
