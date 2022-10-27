@@ -269,6 +269,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13159424195677054542
+  Name: "Kanji Three"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_036"
+  }
+}
+Assets {
   Id: 13040778394310070578
   Name: "Office Cubicle Cabinet Drawer 01"
   PlatformAssetType: 1
@@ -458,6 +467,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9121634492381549414
+  Name: "Kanji Nine"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_042"
+  }
+}
+Assets {
+  Id: 9068058826345870918
+  Name: "Kanji Seven"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_040"
+  }
+}
+Assets {
   Id: 9035591144150604460
   Name: "Icon Close"
   PlatformAssetType: 9
@@ -521,12 +548,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7734465927523668546
+  Name: "Kanji Six"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_039"
+  }
+}
+Assets {
   Id: 7671833129533038569
   Name: "Arch"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_arch_001"
+  }
+}
+Assets {
+  Id: 7554788306651929786
+  Name: "Kanji Five"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_038"
   }
 }
 Assets {
@@ -599,6 +644,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_001_ref"
+  }
+}
+Assets {
+  Id: 6035162576608273777
+  Name: "Japanese Ability Dragon Strike"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "IllustratedIcons_Japan_Abilities_DragonStrike"
   }
 }
 Assets {
@@ -782,6 +836,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2853762541003552299
+  Name: "Kanji Ten"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_043"
+  }
+}
+Assets {
   Id: 2825736010572694941
   Name: "Sci-fi Airlock Servo Movement Door Close 01 SFX"
   PlatformAssetType: 7
@@ -815,6 +878,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_basic_hologram"
+  }
+}
+Assets {
+  Id: 1397254211579333140
+  Name: "Kanji Two"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Japan_Icon_035"
   }
 }
 Assets {
