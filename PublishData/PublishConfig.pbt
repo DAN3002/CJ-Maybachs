@@ -6,7 +6,6 @@ Tags: "Action"
 Tags: "Adventure"
 Tags: "Singleplayer"
 ScreenshotPaths: "C:/Users/dinha/Documents/My Games/Core/Saved/Maps/Coding Project/Screenshots/Screenshot0001.png"
-ReleaseNotes: "First relases"
 OwnerId: "db362732563d4624af12e7253e030c3a"
 SerializationVersion: 4
 PublishedState: Public

@@ -4,11 +4,14 @@ local PASSWORD_MODAL = script:GetCustomProperty("PasswordModal"):WaitForObject()
 local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 local QUIZ_ID = script:GetCustomProperty("QuizID")
 local MODAL = script:GetCustomProperty("Modal"):WaitForObject()
+local SCENE_PORTAL = script:GetCustomProperty("ScenePortal"):WaitForObject()
+local TRIGGER_1 = script:GetCustomProperty("Trigger_1"):WaitForObject()
 
 isUnlocked = false
 
 TRIGGER.interactionLabel = "Unlock"
 TRIGGER.isInteractable = true
+TRIGGER_1.isInteractable = false
 
 function OnInteracted(trigger, player)
 	if(isUnlocked)
@@ -29,10 +32,13 @@ function OnHide(isUnlock)
 	
 	if (isUnlock)
 	then
-		MODAL.visibility = Visibility.FORCE_ON
+		SCENE_PORTAL.visibility = Visibility.FORCE_ON
+		--SCENE_PORTAL.collidable = Collidable.FORCE_ON
 		isUnlocked = true
-		TRIGGER.isInteractable = true
+		TRIGGER.isInteractable = false
 		TRIGGER.interactionLabel = "View"
+		TRIGGER_1.isInteractable = true
+		Events.BroadcastToAllPlayers("End_UI")
 	else
 		Events.BroadcastToAllPlayers("End_UI")
 	end

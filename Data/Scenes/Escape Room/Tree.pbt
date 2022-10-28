@@ -28,6 +28,7 @@ Objects {
   ChildIds: 17405294040644703732
   ChildIds: 8190341283444067016
   ChildIds: 10928468076905872735
+  ChildIds: 5085891003581478323
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,6 +41,432 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5085891003581478323
+  Name: "Scene Portal"
+  Transform {
+    Location {
+      X: -369.885223
+      Y: -206.057709
+      Z: 69.2517548
+    }
+    Scale {
+      X: 1.23646915
+      Y: 1.23646915
+      Z: 1.23646915
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 9229548923909413286
+  ChildIds: 13868195600204228863
+  ChildIds: 10381795852265972472
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DestinationScene"
+      String: "Main"
+    }
+    Overrides {
+      Name: "cs:DestinationScene:tooltip"
+      String: "The name of the scene in the game that this will portal players to. Example: \"Main\"."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5085891003581478323
+    SubobjectId: 13007007807573962102
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10381795852265972472
+  Name: "Geo"
+  Transform {
+    Location {
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5085891003581478323
+  ChildIds: 3635677144713201149
+  ChildIds: 12352192001663952902
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10381795852265972472
+    SubobjectId: 7063075877081741885
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12352192001663952902
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10381795852265972472
+  ChildIds: 14809686711602613607
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12352192001663952902
+    SubobjectId: 6448406356312486083
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14809686711602613607
+  Name: "Portal VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12352192001663952902
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Portal Shape"
+      Int: 1
+    }
+    Overrides {
+      Name: "bp:Portal Spread"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "bp:Intensity Color Blend"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Background Texture"
+      Enum {
+        Value: "mc:eportalbackground:15"
+      }
+    }
+    Overrides {
+      Name: "bp:Scene View Distortion Type"
+      Enum {
+        Value: "mc:eportalscenedistortiontype:newenumerator0"
+      }
+    }
+    Overrides {
+      Name: "bp:Edge Distortion"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Speed"
+      Float: 0.247848794
+    }
+    Overrides {
+      Name: "bp:Color A"
+      Color {
+        G: 2
+        B: 1.83333349
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color B"
+      Color {
+        G: 0.666666508
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color C"
+      Color {
+        G: 0.334201127
+        B: 0.802083
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6677237403455816226
+    }
+  }
+  InstanceHistory {
+    SelfId: 14809686711602613607
+    SubobjectId: 4580171667641996706
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3635677144713201149
+  Name: "Ring - Thin"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 5
+    }
+  }
+  ParentId: 10381795852265972472
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.205078766
+        G: 0.205078766
+        B: 0.205078766
+        A: 1
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16353917461806733124
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3635677144713201149
+    SubobjectId: 13862677089630199096
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13868195600204228863
+  Name: "ScenePortalServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5085891003581478323
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 5085891003581478323
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 9229548923909413286
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14550883824593160681
+    }
+  }
+  InstanceHistory {
+    SelfId: 13868195600204228863
+    SubobjectId: 3630781114487369786
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9229548923909413286
+  Name: "Trigger"
+  Transform {
+    Location {
+      Y: -113.342789
+      Z: 76.5462494
+    }
+    Rotation {
+    }
+    Scale {
+      X: 11.7986956
+      Y: 1.77296257
+      Z: 7.21240616
+    }
+  }
+  ParentId: 5085891003581478323
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Take Portal to Another Core Scene"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
+  }
+  InstanceHistory {
+    SelfId: 9229548923909413286
+    SubobjectId: 8215528465786208611
+    InstanceId: 3745192541072824900
+    TemplateId: 17233595826100739479
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -319,7 +746,7 @@ Objects {
     }
     Overrides {
       Name: "cs:QuizID"
-      String: "Quiz03"
+      String: "Quiz04"
     }
     Overrides {
       Name: "cs:Modal"
@@ -1789,7 +2216,7 @@ Objects {
     }
     Overrides {
       Name: "cs:PASSWORD"
-      String: "1234"
+      String: "98"
     }
     Overrides {
       Name: "cs:QuizID"
@@ -1845,7 +2272,7 @@ Objects {
     }
   }
   ParentId: 9920932538228326501
-  ChildIds: 560680155353261951
+  ChildIds: 7496193617160631036
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1867,8 +2294,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 560680155353261951
-  Name: "Toggle Quiz"
+  Id: 7496193617160631036
+  Name: "Final"
   Transform {
     Location {
     }
@@ -1904,6 +2331,61 @@ Objects {
         SelfId: 12268747375698409328
       }
     }
+    Overrides {
+      Name: "cs:ScenePortal"
+      ObjectReference {
+        SelfId: 5085891003581478323
+        SubObjectId: 13007007807573962102
+        InstanceId: 3745192541072824900
+        TemplateId: 17233595826100739479
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger_1"
+      ObjectReference {
+        SelfId: 9229548923909413286
+      }
+    }
+    Overrides {
+      Name: "cs:PasswordModal:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:PasswordModal:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Trigger:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Trigger:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:QuizID:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:QuizID:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Modal:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Modal:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:ScenePortal:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:ScenePortal:ml"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1919,7 +2401,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 585636910412409301
+      Id: 3667675329220057786
     }
   }
   NetworkRelevanceDistance {
@@ -10484,7 +10966,7 @@ Objects {
       }
     }
     Text {
-      Label: "Hint:  ...."
+      Label: "Hint:  Final Code"
       Color {
         R: 1
         G: 1

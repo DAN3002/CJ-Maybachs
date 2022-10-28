@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16353917461806733124
+  Name: "Ring - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_003"
+  }
+}
+Assets {
   Id: 15897705887741699672
   Name: "Urban Pipe Straight"
   PlatformAssetType: 1
@@ -422,6 +431,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10184847056121543272
+  Name: "Basic Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
   Id: 10047463292971303134
   Name: "Sci-fi Base Wall Interior 01"
   PlatformAssetType: 1
@@ -626,6 +644,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_engine_001_ref"
+  }
+}
+Assets {
+  Id: 6677237403455816226
+  Name: "Portal VFX"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_portal"
   }
 }
 Assets {
