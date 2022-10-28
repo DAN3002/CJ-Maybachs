@@ -14,7 +14,6 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 6275767419162813407
   ChildIds: 967498090887259029
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
@@ -60,7 +59,6 @@ Objects {
   ChildIds: 4645562258356188996
   ChildIds: 14327898961344796439
   ChildIds: 9336873669849031655
-  ChildIds: 5495472259736579879
   ChildIds: 10535784719346270331
   ChildIds: 4717664561142068469
   ChildIds: 9331048266679679912
@@ -149,6 +147,23 @@ Objects {
   }
   ParentId: 4781671109827199097
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 503681998163126313
+      value {
+        Overrides {
+          Name: "HeadVisibleToSelf"
+          Bool: false
+        }
+        Overrides {
+          Name: "PlayerJumpMaxCount"
+          Int: 1
+        }
+        Overrides {
+          Name: "PlayerMountedWalkSpeed"
+          Float: 1300
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 18143788354451018607
       value {
@@ -96761,13 +96776,11 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 2643642988141486025
-  ChildIds: 8025049066374041862
   ChildIds: 13002587142726741785
   ChildIds: 16761289918493395352
   ChildIds: 7872048759555297534
   ChildIds: 9598112185619184272
   ChildIds: 5899887254306503598
-  ChildIds: 17729971059554385956
   ChildIds: 4912359033234408753
   ChildIds: 12072416483114326918
   ChildIds: 6331399445202637400
@@ -97349,61 +97362,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17729971059554385956
-  Name: "Rock Block 01"
-  Transform {
-    Location {
-      X: 7704.49268
-      Y: -31.9586182
-      Z: 3648.64307
-    }
-    Rotation {
-      Yaw: -147.726654
-    }
-    Scale {
-      X: 1.00988805
-      Y: 1.00988805
-      Z: 1.00988805
-    }
-  }
-  ParentId: 15539844118664043707
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17482624767570137205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 5899887254306503598
   Name: "Rock Block 01"
   Transform {
@@ -97643,61 +97601,6 @@ Objects {
       X: 1.16000855
       Y: 1.16000855
       Z: 1.16000855
-    }
-  }
-  ParentId: 15539844118664043707
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17482624767570137205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8025049066374041862
-  Name: "Rock Block 01"
-  Transform {
-    Location {
-      X: 1377.94531
-      Y: 978.021
-      Z: 2740.18262
-    }
-    Rotation {
-      Yaw: -162.338913
-    }
-    Scale {
-      X: 1.08014154
-      Y: 1.08014154
-      Z: 1.08014154
     }
   }
   ParentId: 15539844118664043707
@@ -137233,61 +137136,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5495472259736579879
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 26900
-      Y: 24550
-      Z: 2250
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 242.749695
-      Y: 50.9999962
-      Z: 0.1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 9336873669849031655
   Name: "GeneratedObjects - Flower Wild Lily Patch 01"
   Transform {
@@ -161506,8 +161354,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1200
-      Y: 2150
+      X: -4200
+      Y: -15700
       Z: 150
     }
     Rotation {
@@ -161722,34 +161570,4 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6275767419162813407
-  Name: "AllPlayersFly"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11819897773402071195
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AllPlayersFly"
-        }
-        Overrides {
-          Name: "cs:GroundDistance"
-          Float: 500
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7012728414023974315
-    }
-  }
 }

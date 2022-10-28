@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15376374145827134769
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
+  }
+}
+Assets {
   Id: 14922648517014774562
   Name: "Cube"
   PlatformAssetType: 1
@@ -431,6 +440,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7917643843895697114
+  Name: "Sci-fi Console Screen 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_003_ref"
+  }
+}
+Assets {
   Id: 7914643784799349320
   Name: "Tech Panel 02"
   PlatformAssetType: 2
@@ -536,6 +554,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_elbow_001_ref"
+  }
+}
+Assets {
+  Id: 5109129970559468393
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
   }
 }
 Assets {
